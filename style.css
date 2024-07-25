@@ -15,6 +15,12 @@ ul {
     gap: 15px;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .topmain {
     display: flex;
     flex-direction: column;
@@ -23,17 +29,17 @@ ul {
     padding-bottom: 75px;
     flex-grow: 1;
     flex-shrink: 1;
+    margin-left: 350px;
+    margin-right: 350px;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     font-family: 'Hero New', sans-serif;
-    gap: 100px;
+    gap: 250px;
     background-color: #1f2937;
     color: white;
-    /* margin-left: 190px;
-    margin-right: 100px; */
     margin-top: 10px;
 }
 
@@ -57,13 +63,16 @@ p {
                                                 
 }
 
-button {
+#button {
     max-width: 100px;
     max-height: 30px;
     background-color: #3882F6;
     color: white;
     border-radius: 5px;
-    padding: 3px 10px;
+    padding: 5px 10px;
+    border: 0;
+    /* background: none; */
+    box-shadow: none;
 }
 
 .placeholder {
@@ -84,6 +93,7 @@ button {
     margin-top: 100px;
     background-color: #1f2937;
     gap: 50px;
+    /* flex: 1; */
 }
 
 
@@ -121,7 +131,7 @@ button {
 
 .quote {
     height: 250px;
-    width: 900px;
+    width: 1050px;
     padding-left: 220px;
     padding-right: 220px;
     font-size: 20px;
@@ -132,6 +142,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    font-family: 'Hero New', sans-serif;
 }
 
 .quotebox {
@@ -141,3 +152,64 @@ button {
     margin-top: 50px;
 }
 
+footer {
+    font-weight: bold;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+    font-family: 'Hero New', sans-serif;
+    font-size: 12px;
+}
+
+.call-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 525px;
+    margin-right: 525px;
+}
+
+#button2 {
+    max-width: 100px;
+    max-height: 30px;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+    border: 2px solid #e5e7eb;
+    border-width: 1px;
+    border-color: #e5e7eb;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
+    font-family: 'Hero New', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    margin-top: 50px;
+    padding: 25px 0px 25px 0px;
+    width: 1050px;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: center;
+}
