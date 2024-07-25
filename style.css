@@ -74,6 +74,8 @@ button {
     justify-content: center;
     align-items: center;
     color: white;
+    font-family: 'Hero New', sans-serif;
+    font-size: 12px;
 }
 
 .top {
@@ -90,6 +92,7 @@ button {
     flex-direction: column;
     align-items: center;
     margin-top: 25px;
+    font-family: 'Hero New', sans-serif;
 }
 
 .card {
@@ -111,6 +114,30 @@ button {
 .text {
     width: 100px;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 5px;
+    font-family: 'Hero New', sans-serif;
 }
+
+.quote {
+    height: 250px;
+    width: 900px;
+    padding-left: 220px;
+    padding-right: 220px;
+    font-size: 20px;
+    font-style: italic;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.quotebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
