@@ -15,11 +15,31 @@ ul {
     gap: 15px;
 }
 
+body {
+    /* margin-left: 300px;
+    margin-right: 300px; */
+}
+
+.topmain {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    /* align-items: center; */
+    padding-bottom: 75px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
+    font-family: 'Hero New', sans-serif;
+    gap: 100px;
     background-color: #1f2937;
     color: white;
+    /* margin-left: 190px;
+    margin-right: 100px; */
+    margin-top: 10px;
 }
 
 .header2 {
@@ -27,15 +47,19 @@ ul {
     flex-direction: column;
     /* margin-top: 100px; */
     max-width: 350px;
+    gap: 10px;
     color: white;
 }
 
 h1 {
     max-width: 300px;
+    font-family: 'Hero New', sans-serif;                                          
 }
 
 p {
     font-size: 15px;
+    font-family: 'Hero New', sans-serif;
+                                                
 }
 
 button {
@@ -49,8 +73,8 @@ button {
 
 .placeholder {
     width: 350px;
-    height: 150px;
-    background-color: rgb(156, 156, 156);
+    height: 175px;
+    background-color: rgb(124, 124, 124);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,6 +83,8 @@ button {
 
 .top {
     display: flex;
+    justify-content: center;
     margin-top: 100px;
     background-color: #1f2937;
+    gap: 50px;
 }
